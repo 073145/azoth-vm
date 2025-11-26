@@ -8,6 +8,8 @@ AZOTH-VM is a minimal, stack-based Virtual Machine implementing a dialect of For
 
 Unlike static languages (C/Rust) where the execution path is frozen at compile time, AZOTH maintains the compiler, interpreter, and dictionary in memory simultaneously. This allows for Reflexive Metaprogramming: the system can inspect its own code structure, redefine execution words at runtime, and adapt its behavior without a system reboot.
 
+---
+
 ### Core Objectives
 
 - Plasticity: Enable hot-swapping of logic in mission-critical loops (Live Coding).
