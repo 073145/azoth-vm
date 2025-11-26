@@ -18,6 +18,8 @@ Unlike static languages (C/Rust) where the execution path is frozen at compile t
 
 - Polymorphism: Support self-modifying code techniques to alter execution signatures dynamically.
 
+---
+
 ## 🏗️ Architecture
 
 The VM is built upon the Indirect Threaded Code (ITC) model to maximize flexibility.
